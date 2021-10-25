@@ -11,7 +11,7 @@ const containerStyle = {
 const TestComponent = () => {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyDkWz-IqoLGml-yATqWjQtQCZUk5VeTt3Y",
+    googleMapsApiKey: "***************************",
   });
 
   const [center, setCenter] = useState({});
